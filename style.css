@@ -1,69 +1,91 @@
-html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    background: linear-gradient(to top, #8d7474, #4d4646);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #1a1a24;
+    background-image: linear-gradient(to bottom, #111116, #1c1c2b);
     background-attachment: fixed;
     min-height: 100vh;
-    margin: 0;
-}
-
-
-
-h1 {
     color: #ffffff;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-* {
-  box-sizing: border-box; /* Keeps layouts clean */
-}
-
-
-
-nav {
-    color: #ffffff;
-    font-size: 22px;
-    text-align: center;
-}
-
-.gradient-background {
-    background: linear-gradient(to top, #665a5a, #ac9e9e);
-}
-
-a   {
-    text-decoration: none;
-    color: #43a3fd;
-}
-
-a:hover {
-    text-decoration: underline;
-    font-size: 23px;
-    color: #39b7dd;
-}
-
-a:active {
-    color: #5ac2bd;
-    text-decoration: underline;
-}
-
-body {
-    background-color: #665a5a;
-}
-
-p {
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    line-height: 1.5;
 }
 
 .website-header {
     text-align: center;
-    color: white;
-    font-size: 45px;
+    color: #ffffff;
+    font-size: 42px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 35px;
+}
+
+h1 hr {
+    border: none;
+    height: 2px;
+    background-color: #43a3fd;
+    width: 250px;
+    margin: 10px auto;
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #43a3fd;
+    font-weight: bold;
+    padding: 0 12px;
+}
+
+a:hover {
+    color: #00f5d4;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff007f;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 35px;
+    background: #252532;
+    border: 1px solid #3b3b4f;
+    border-radius: 8px;
+}
+
+.content-container p {
+    flex: 2;
+    font-size: 17px;
+    color: #e0e0e0;
+}
+
+.side-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #43a3fd;
+}
+
+.side-image:hover {
+    transform: scale(1.02);
 }
