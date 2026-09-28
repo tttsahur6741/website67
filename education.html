@@ -1,32 +1,41 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
-       <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Education &amp; Training | Career Website</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="website-header">
-            Career Website
-        </header>
-       <header class="website-header">
-        <nav>
-            <a href="index.html">Home</a>
-            |
-            <a href="job_desc.html">Job Description</a>
-            |
-            <a href="education.html">Education/Training</a>
-            |
-            <a href="earning.html">Earning Potential</a>
-            |
-            <a href="skills.html">Skills</a>
-            |
-            <a href="contact.html">Contact</a>
-        </nav> 
-        <hr>
+        <header class="site-header">
+            <div class="brand">Career Website</div>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="job_desc.html">Job Description</a>
+                <a class="active" href="education.html">Education/Training</a>
+                <a href="earning.html">Earning Potential</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </header>
 
-        <h1>
-            Education
-            <hr width="25%">
-        </h1> 
+        <main class="page-shell">
+            <h1 class="page-title">Education &amp; Training</h1>
+
+            <div class="layout-timeline-rows">
+                <div class="timeline-row">
+                    <h3>Academic Pathway</h3>
+                    <p>
+                        Entering the web development field offers flexible educational pathways. Many professionals hold a Bachelor's Degree in Computer Science, Software Engineering, or Information Technology.
+                    </p>
+                </div>
+                <div class="timeline-row">
+                    <h3>Alternative Training Pathways</h3>
+                    <p>
+                        Alternatively, many developers successfully break into the industry through immersive coding bootcamps, technical certifications, or self-directed learning portfolios that demonstrate practical build experience.
+                    </p>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

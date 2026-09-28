@@ -1,39 +1,35 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
-       <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Developer | Career Website</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="website-header">
-            Career Website
-        </header>
-       <header class="website-header">
-        <nav>
-            <a href="index.html">Home</a>
-            |
-            <a href="job_desc.html">Job Description</a>
-            |
-            <a href="education.html">Education/Training</a>
-            |
-            <a href="earning.html">Earning Potential</a>
-            |
-            <a href="skills.html">Skills</a>
-            |
-            <a href="contact.html">Contact</a>
-        </nav>  
-        <hr>
+        <header class="site-header">
+            <div class="brand">Career Website</div>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a class="active" href="index.html">Home</a>
+                <a href="job_desc.html">Job Description</a>
+                <a href="education.html">Education/Training</a>
+                <a href="earning.html">Earning Potential</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </header>
 
-        <h1>
-            Web Developer
-            <hr width="25%">
-        </h1> 
+        <main class="page-shell">
+            <h1 class="page-title">Web Developer</h1>
 
-        <div class="content-container">
-            <p>
-                A Web Developer is a technical professional who builds, maintains, and optimizes websites and web applications to ensure they are functional, reliable, and user-friendly. They act as the bridge between visual design ideas and technical execution, transforming static layouts into fully interactive digital experiences. Whether working on a small local business site or a massive online platform, their primary goal is to create a digital space that loads quickly and provides an intuitive experience for visitors.
-            </p>
-            <img src="images/daniellarsonroaringthunder.jpg" class="side-image">
-        </div>
+            <div class="content-container layout-split">
+                <div class="content-copy">
+                    <p>
+                        A Web Developer is a technical professional who builds, maintains, and optimizes websites and web applications to ensure they are functional, reliable, and user-friendly. They act as the bridge between visual design ideas and technical execution, transforming static layouts into fully interactive digital experiences. Whether working on a small local business site or a massive online platform, their primary goal is to create a digital space that loads quickly and provides an intuitive experience for visitors.
+                    </p>
+                </div>
+                <img src="images/daniellarsonroaringthunder.jpg" class="side-image" alt="Web developer illustration">
+            </div>
+        </main>
     </body>
 </html>
