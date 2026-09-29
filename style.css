@@ -96,6 +96,8 @@ img {
     position: relative;
 }
 
+/* TUNG TUNG TUNG SAHUR is so sigma */
+
 .page-title::after {
     content: "";
     display: block;
@@ -297,7 +299,6 @@ img {
     }
 }
 
-/* Layout for feature panels with an image */
 .layout-feature-panel .feature-with-image {
     display: flex;
     align-items: center;
@@ -356,8 +357,8 @@ img {
 
 .split-row .content-container {
     flex: 1 1 0%;
-    margin: 0; /* content-container already provides padding/background */
-    min-width: 0; /* allow content to shrink properly */
+    margin: 0;
+    min-width: 0;
     display: flex;
     align-items: center;
 }
