@@ -296,3 +296,42 @@ img {
         height: 300px;
     }
 }
+
+/* Layout for feature panels with an image */
+.layout-feature-panel .feature-with-image {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.layout-feature-panel .feature-image {
+    width: 40%;
+    max-width: 320px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.layout-feature-panel .floating-data-card {
+    position: static;
+    width: 60%;
+    max-width: none;
+    padding: 26px 22px;
+    border-radius: 18px;
+    background: rgba(11, 16, 28, 0.72);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(106, 212, 255, 0.35);
+    box-shadow: var(--shadow);
+}
+
+@media (max-width: 800px) {
+    .layout-feature-panel .feature-with-image {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .layout-feature-panel .feature-image,
+    .layout-feature-panel .floating-data-card {
+        width: 100%;
+    }
+}
